@@ -3,7 +3,7 @@ account_id = "1200e14a9c6c8a045196e7665063fcbe"
 compatibility_date = "2025-01-21"
 
 [assets]
-directory = "./dist"
+directory = "./public"
 
 [observability]
 enabled = true
