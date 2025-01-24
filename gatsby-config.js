@@ -15,15 +15,15 @@ module.exports = {
     siteUrl: `https://gnomebobon.com`,
   },
   plugins: [
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `poppins\:700` // you can also specify font weights and styles
+          `poppins\:700`, // you can also specify font weights and styles
         ],
-        display: 'swap'
-      }
+        display: "swap",
+      },
     },
     `gatsby-plugin-image`,
     {
@@ -43,7 +43,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#87C725`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gblogo.png`,
       },
     },
   ],
